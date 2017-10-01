@@ -80,4 +80,4 @@ and whether they have the walkable flag set, in the following format:
 
 (defun dump (filename)
   (uiop:dump-image filename :executable t
-                            #+sbcl :compression #+sbcl t))
+                            #+sbcl :compression #+sbcl nil))
